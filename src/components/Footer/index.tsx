@@ -1,7 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Footer: React.FC = (props) => {
-  return <div className="footer">This is footer</div>;
+  return (
+    <footer>
+      <div className="container">
+        <p>Footer</p>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
